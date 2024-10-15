@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+
+.avatar {
+    color: green;
+}
+
+.proportioned   {
+    width: 100px;
+}
+
+.distorted  {
+    width: 100px;
+}
