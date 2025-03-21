@@ -15,12 +15,33 @@ body {
   justify-content: space-between;
 }
 
+.footer{
+  background-color: #eeeeee;
+}
+
 ul.left-links, ul.right-links  {
   display: flex;
+  list-style-type: none;
+  padding: 8px;
+  margin: 0;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #535353;
+  font-size: 12px
 }
 
 img {
   width: 600px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 button {
@@ -28,6 +49,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
